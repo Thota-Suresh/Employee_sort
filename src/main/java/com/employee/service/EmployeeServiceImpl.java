@@ -112,7 +112,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 		}
 	  dao.deleteById(id);
 		
-		return new ResponseEntity<>("Employee Record is deleted ",HttpStatus.ACCEPTED);
+		return new ResponseEntity<>("Employee Record is deleted ",HttpStatus.OK);
 	}
 
 	@Override
